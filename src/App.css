@@ -1,0 +1,223 @@
+.carousel img {
+  height: 100vh;
+  width: 100%;
+  min-height: 100vh;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 35%;
+  transform: translate(-50%, -50%);
+}
+.carousel-caption h5 {
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+  background-color: #0000006b;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  font-family: "Carattere", "Rubik Scribble";
+  margin: 10px auto;
+}
+.fresh {
+  background-color: #0000006b;
+  font-family: "Carattere", "Rubik Scribble";
+  color: white;
+  font-size: 2rem;
+  width: 50%;
+  margin: auto;
+}
+
+.navbar {
+  background-color: #0a060ae1;
+  padding: 1rem !important;
+}
+
+.font {
+  font-family: "Carattere", "Rubik Scribble";
+}
+
+.navbar > .container {
+  gap: 3rem;
+}
+
+.ourMenu {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  margin: auto;
+  justify-content: center;
+  column-gap: 3rem;
+  row-gap: 3rem;
+}
+.card img {
+  width: auto;
+  object-fit: cover;
+  height: 300px;
+}
+
+.item-price {
+  color: green;
+  font-size: 1.5rem;
+}
+
+.basketCard {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.basketCard img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 30px;
+  margin: 10px auto;
+}
+
+.priceAndqua {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.buttonDiv {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.buttonDiv p {
+  padding-top: 1rem;
+}
+.plus {
+  font-size: 2rem;
+  color: green;
+}
+.minus {
+  font-size: 2rem;
+  color: red;
+}
+
+.totalPrice {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  color: white;
+  font-family: "Carattere", "Rubik Scribble";
+}
+
+.basketCard {
+  font-family: "Carattere", "Rubik Scribble";
+}
+
+.gridMain {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: center;
+  column-gap: 1rem;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+}
+
+.basketLength {
+  position: absolute;
+  top: -33px;
+  right: -10px;
+  color: coral;
+  font-weight: bold;
+  font-family: "Carattere", "Rubik Scribble";
+  font-size: 2rem;
+}
+.basketBtn {
+  right: 3rem;
+  border: none !important;
+  background-color: coral !important;
+}
+.gap {
+  gap: 3rem;
+}
+
+@media (max-width: 900px) {
+  .carousel-caption h5 {
+    width: 100%;
+    font-size: 2rem;
+  }
+  .carousel-caption {
+    position: absolute;
+    top: 35%;
+    transform: translate(0%, -55%);
+  }
+  .ourMenu {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: auto;
+    justify-content: center;
+    column-gap: 3rem;
+    row-gap: 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .ourMenu {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    margin: auto;
+    justify-content: center;
+    column-gap: 3rem;
+    row-gap: 3rem;
+  }
+  .basketBtn {
+    right: -10px;
+    top: 3px;
+  }
+  .navbar > .container {
+    gap: 0px !important;
+  }
+  .navbar-nav {
+    gap: 10px !important;
+  }
+  .basketLength {
+    font-size: 2rem;
+    top: -35px;
+    right: -5px;
+  }
+  .pizzaDetails {
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+.pizzaDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  gap: 20px;
+  font-size: 1.5rem;
+  font-family: "Carattere", "Rubik Scribble";
+}
+.pizzaDetails img {
+  width: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+  height: 350px;
+}
+.pizzaDetails button {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 5px 30px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.nameanding {
+  display: flex;
+  flex-direction: column;
+}
